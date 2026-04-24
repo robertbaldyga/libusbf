@@ -6,7 +6,7 @@ AM_PROG_AR
 AC_CONFIG_MACRO_DIR([m4])
 AC_DEFINE([_GNU_SOURCE], [], [Use GNU extensions])
 
-LT_INIT
+LT_INIT([disable-shared])
 
 # Checks for typedefs, structures, and compiler characteristics.
 AC_C_INLINE
